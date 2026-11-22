@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# React / Node.js
+node_modules/
+dist/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# AI model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Dataset
+backend/storage/datasets/
+
+# Training logs and outputs
+backend/storage/logs/
+backend/storage/outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
